@@ -1,0 +1,50 @@
+
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+		}
+		header {
+			background-color: #d9534f;
+			color: #fff;
+			padding: 10px;
+			text-align: center;
+		}
+		h1 {
+			font-size: 48px;
+			margin: 0;
+            
+		}
+		.banner {
+			background-image: url('img/background-image');
+			background-size:contain;
+			height: 25px;width: 25px;
+		}
+		.container {
+			max-width: 500px;
+			margin: 0 auto;
+			padding: 10px;
+		}
+		p {
+			font-size: 18px;
+			line-height: 1.5;
+		}
+		.quote {
+			font-size: 24px;
+			font-style: italic;
+			margin: 40px 0;
+			text-align: center;
+		}
+		.btn {
+			background-color: #d9534f;
+			border: none;
+			color: #fff;
+			cursor: pointer;
+			font-size: 18px;
+			padding: 10px 20px;
+			text-transform: uppercase;
+		}
+		.btn:hover {
+			background-color: #c9302c;
+		}
+	

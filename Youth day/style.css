@@ -1,18 +1,45 @@
 
 		body {
+			text-align: center;
+			background-color: lightgrey;
 			font-family: Arial, sans-serif;
 			margin: 0;
 			padding: 0;
+			color:black;
+			font-size: 40px;
 		}
 		header {
-			background-color: #d9534f;
+			background-color: lightgrey;
 			color: #fff;
 			padding: 10px;
 			text-align: center;
 		}
 		h1 {
-			font-size: 48px;
+			font-size: 80px;
 			margin: 0;
+			color:white;    
+		}
+		.color1{
+			color :#007A4D;
+			}
+		.color2{
+			color:#FFB612;
+			}
+		.color3{
+			color :#002395;
+			}
+		.color4{
+			color:#DE3831;
+			}
+		.color5{
+			color:#000000;
+			}
+		.color6{
+			color:#FFFFFF;
+			}
+		h2 {
+			font-size: 48px;
+			margin: 30px;
             
 		}
 		.banner {
@@ -21,12 +48,13 @@
 			height: 25px;width: 25px;
 		}
 		.container {
+			background-color: lightgrey;
 			max-width: 500px;
 			margin: 0 auto;
 			padding: 10px;
 		}
 		p {
-			font-size: 18px;
+			font-size: 25px;
 			line-height: 1.5;
 		}
 		.quote {
@@ -35,16 +63,16 @@
 			margin: 40px 0;
 			text-align: center;
 		}
+		/* footer button  */
 		.btn {
-			background-color: #d9534f;
-			border: none;
-			color: #fff;
-			cursor: pointer;
-			font-size: 18px;
-			padding: 10px 20px;
-			text-transform: uppercase;
-		}
-		.btn:hover {
-			background-color: #c9302c;
-		}
+			border: none; /* Remove borders */
+			color: white; /* Add a text color */
+			padding: 14px 28px; /* Add some padding */
+			cursor: pointer; /* Add a pointer cursor on mouse-over */
+		  }
+		  
+		  .btn {background-color: #04AA6D;} /* Green */
+		  .btn:hover {background-color: #46a049;}
+		
+		 	
 	
